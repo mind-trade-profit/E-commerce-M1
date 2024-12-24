@@ -1,0 +1,37 @@
+.titleDetail{
+    text-align: center;
+    text-transform: uppercase;
+}
+.containerInfo{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notExist{
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 12px blue;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: inset 0 0 20px 3px blue;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.igmSorry{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 12px  white)
+}

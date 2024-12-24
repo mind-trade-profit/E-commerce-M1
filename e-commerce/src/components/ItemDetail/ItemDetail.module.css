@@ -1,0 +1,53 @@
+.containerFather{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img{
+    width: 500px;
+    height: 600px;
+    object-fit: contain;
+    border: 1px solid grey;
+}
+.titleP{
+    text-align: left;
+    text-shadow: 0 0 10px white ;
+    font-weight: 500;
+    font-size: 30px;
+}
+.price{
+    font-size: 40px;
+    font-weight: 700;
+    opacity: 90%;
+}
+.containerInfoP{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+.finalizePurchase{
+    width: 180px;
+    height: auto;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 30px;
+    transition: all 0.2s linear;
+}
+.finalizePurchase:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 10px 5px 1px whitesmoke, 0 12px 5px 1px blue;
+    border: 2px black solid ;
+    border-radius: 12px;
+}

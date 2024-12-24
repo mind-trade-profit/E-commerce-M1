@@ -1,0 +1,42 @@
+.containerTags{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.titleP{
+    text-align: center;
+    text-shadow:  0 0 20px white;
+}
+.imgP{
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+}
+
+.viewDetail{
+    width: 180px;
+    height: auto;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid white;
+    transition: all 0.2s linear;
+}
+
+.viewDetail:hover{
+   background-color: white;
+   color: black;
+   box-shadow: 0 10px 5px 1px whitesmoke, 0 12px 5px 1px blue;
+   border: 2px black solid ;
+   border-radius: 12px;
+}
+.stockI{
+    color: blueviolet;
+    font-size:19px;
+    font-weight: 700;
+}
+

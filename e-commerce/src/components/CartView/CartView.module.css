@@ -1,0 +1,92 @@
+.tittle {
+  text-align: center;
+}
+
+.containerComponents {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.containerProducts {
+  width: 1200px;
+  height: auto;
+  padding: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1px;
+  align-items: center;
+  border: 1px solid white;
+  box-shadow: inset 0 0 12px 2px white;
+}
+
+.containerButtons {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
+.removeItem {
+  width: 150px;
+  padding: 17px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+  background-color: unset;
+  border: 1px solid white;
+  border-radius: unset;
+  margin-bottom: 50px;
+}
+.containerImg {
+  width: 400px;
+  height: auto;
+  object-fit: contain;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.titleP {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline white 1px solid;
+  text-shadow: 0 4px 9px black;
+}
+
+.containerFPurchase {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.767);
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  box-shadow: inset 12px 0 10px grey, 12px 0 10px black;
+}
+.buttonCheckout {
+  all: unset;
+  width: 160px;
+  padding: 9px;
+  border-radius: 8px;
+  text-align: center;
+  background-image: linear-gradient(to top right , black, white);
+  cursor: pointer;
+  color: white;
+  transition: width 0.3s ease, box-shadow 0.3s ease-in-out, margin-right 0.3s ease-in, margin-bottom 0.3s ease-in, color 0.3s linear,background-color 0.3s ease-in, background-image 0.3s ease-in-out  ;
+}
+
+.buttonCheckout:hover {
+  width: 180px;
+  box-shadow: 12px 20px 10px grey;
+  background-image: unset;
+  background-color: black;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color:antiquewhite;
+}
